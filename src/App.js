@@ -25,7 +25,7 @@ function App() {
   function closeModal() {
     setIsOpen(false);
     if (currentPlaying < 5) setCurrentPlaying(currentPlaying + 1);
-    if (currentPlaying == 5) {
+    if (currentPlaying === 5) {
       setIsOpen2(true);
     }
   }
